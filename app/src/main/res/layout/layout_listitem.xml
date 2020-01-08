@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:padding="1dp"
+    android:id="@+id/parent_layout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/restaurant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/image"
+        android:text="Restaurant Name"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cuisine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restaurant_name"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/image"
+        android:text="Cuisine Name"
+        android:textColor="#737373"
+        android:textSize="15sp" />
+
+</RelativeLayout>
