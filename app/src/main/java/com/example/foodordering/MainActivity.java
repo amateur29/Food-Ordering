@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
             ref.child("Users").child("name").child("email").setValue(email);
             //ref.child("Users").child("name").child("password").setValue();
             Toast.makeText(this, "Signed in!", Toast.LENGTH_SHORT).show();
-            Intent i = new Intent(this, HomeScreen.class);
+            Intent i = new Intent(this, Bottom_Nav_Handle.class);
             startActivity(i);
         } else {
             Toast.makeText(this, "Account doesn't exist!", Toast.LENGTH_SHORT).show();
