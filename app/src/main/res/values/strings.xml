@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Food Ordering</string>
+    <string name="textview">TextView</string>
+    <string name="android_name">Android Name</string>
+    <string name="android_version">Android Version</string>
+    <string name="food">food</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+</resources>
